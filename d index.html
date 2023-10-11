@@ -1,0 +1,143 @@
+<html>
+    <head>
+    <title> centering element
+    </title>
+        <meta name="viewprint" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <header id="h1">REGISTRATION FOR THE CRICKET TOURNMENT </header>
+    </body>
+        <br>
+    <div class="container">
+        <div class="main">
+        <img id="m1" src="https://media.istockphoto.com/id/509677072/vector/t20-world-cup-poster-design.jpg?s=612x612&w=0&k=20&c=8esQjEFTeqiEPxfnoGEPtvLmPbJUxycZBX3eWVznUCM=">
+            <p id="p1"> Registration fee 1000/-
+            VENUE:Karimnagar<br>   
+            Should Participate with ADHAAR ID</p>
+    </div>
+            <br>
+        
+        <div class="main2"><br>
+            <form action="form2">
+            <div class="form">
+            <header id="h2" style="font-size: 25px; text-align: center; font-style: oblique; background-color:lightsteelblue; border-radius: 5px">Registration form</header><br>
+            
+            <label for="v.name"> <b>Village Name_:</b></label>
+            <input type="text" placeholder="Enter Village Name"><br><br/>
+            
+            <label for="Mnum"> <b>Mobile Number:</b></label>
+            <input type="number" placeholder="Enter Mobile Num">
+               <br> <br/>
+                <lable for="team"> <b> Team Name:</b></lable>
+                <input type="text" placeholder="Enter Name of the Team">
+                <br><br/>
+                    <button type="submit" id="bt1">Register</button>
+                <p id="p2"> Every team Should Bring Their own Cricket kit</p>
+            </div>
+            </form>
+        </div>
+        
+        </div>
+
+    <style>
+        
+        
+        .container{
+            display: flex;
+            flex-direction: row;
+            gap:10px;
+        
+        }
+        #h1{
+            font-size: 25px;
+            
+            text-align: center;
+            font-style: oblique;
+            background-color: bisque;
+            width: auto;
+        }
+        .main{
+        
+            width: 800px;
+            height: 600px;
+            border: 5px ridge blue;
+            background-image: url("https://media.istockphoto.com/id/1201098711/vector/stadium-of-cricket.jpg?s=612x612&w=0&k=20&c=OH1XXd8iEJ37_ljXOwe6kUho1xbpARX6uKqO72WvWLc=");
+    margin-left:50px;
+        }
+        .form{
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            margin-top: 30px;
+            border: 5px solid red;
+            border-radius: 20px;
+            margin: auto;
+            background-color: beige;
+            
+            
+        }
+        .main2{
+            width: 600px;
+            height: 600px;
+    border:5px ridge blue; 
+        background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/watermarks/image/rDtN98Qoishumwih/abstract-cricket-background_Xy2VMW_SB_PM.jpg");
+            margin-right: 
+        }
+        #m1{
+        position: relative;
+            width: 700px;
+            height: 300px;
+        left: 400px;
+        top: 200px;
+            border: 3px solid red;
+            transform: translate(-50%,-50%);
+            
+        }
+        #p1{
+            width:350px;
+            height: 75px;
+             text-align:center;
+            margin-left: 400px;
+            margin-top:130px;
+            font-size: 20px;
+            color: aliceblue;
+            border: 5px solid  aliceblue;
+            border-radius: 30px;
+        }
+        
+        
+        
+        #bt1{
+            align-content: center;
+            width: 60px;
+            height:auto;
+        }
+        #p2{
+            width:210px;
+            height:60px;
+             text-align:center;
+            margin-top:160px;
+            font-size: 20px;
+            color:black;
+            border: 5px solid blue ;
+            border-radius: 30px;
+            background-color: beige;
+        }
+        @media screen and (max-width:600px){
+            #m1{
+                width: 200px;
+                height: 150px;   
+            }
+            #p1{
+                 width: 100px;
+                height: 50px;
+            }
+        }
+        @media screen and (min-width:601px) and (max-width:1100px){
+            #m1{
+                width: 650px;
+                height:400px;
+            }
+        }
+    </style>
+</html>
